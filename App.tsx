@@ -254,7 +254,7 @@ const styles = StyleSheet.create ({
   todoItem: {
     margin: 16,
     borderWidth: 1,
-    marginBottom: 10,
+    marginBottom: 15,
     padding: 8,
     borderRadius: 2,
     flexDirection: "row",
