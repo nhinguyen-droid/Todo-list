@@ -12,7 +12,7 @@ export default function App (){
     <SafeAreaView style={styles.container}>
       <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen 
+        {/* <Stack.Screen 
         name="TodoListPage" 
         component={TodoList} 
         options={{
@@ -21,7 +21,7 @@ export default function App (){
           headerBackTitle: "ABCS",
           headerBackVisible: true
         }}
-        />
+        /> */}
         <Stack.Screen 
         name="TodoDetail" 
         component={TodoDetail} 
